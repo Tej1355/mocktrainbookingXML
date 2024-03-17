@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pnrpage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg1"
+        tools:context=".MainActivity"
+        tools:ignore="UselessParent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="103dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_50dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginEnd="@dimen/_50dp"
+            android:layout_marginBottom="@dimen/_50dp"
+            android:text="@string/please_click_on_the_button"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/book_button"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="255dp"
+            android:layout_marginEnd="81dp"
+            android:onClick="mainactivity4"
+            android:text="PNR / RUNNING STATUS" />
+
+        <Button
+            android:id="@+id/book_button1"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="325dp"
+            android:layout_marginEnd="81dp"
+            android:onClick="mainactivity4"
+            android:text="TICKET BOOKING" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
